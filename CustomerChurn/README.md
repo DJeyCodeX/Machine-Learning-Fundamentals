@@ -172,18 +172,10 @@ The threshold tuning part was one of the most useful parts of the project for me
 
 ## What Could Be Improved
 
-If I continue improving this project, I would like to make the workflow more production-ready.
-
 Possible next steps:
 
-- Use scikit-learn `Pipeline` and `ColumnTransformer` for cleaner preprocessing.
 - Move scaling and feature selection inside cross-validation to avoid possible data leakage.
-- Add a `requirements.txt` file and make the notebook easier to run outside Google Colab.
 - Try other models such as Random Forest, XGBoost, or LightGBM.
-- Compare ROC-AUC with PR-AUC, since the dataset is imbalanced.
-- Tune logistic regression using regularization and `GridSearchCV`.
-- Try class imbalance handling methods such as `class_weight='balanced'` or SMOTE.
-- Add model explanation using logistic regression coefficients or SHAP values.
 
 ## Final Thoughts
 
